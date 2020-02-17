@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paylancer", "Paylancer\Paylancer.csproj", "{341F8591-9900-449B-83CD-4A07E6A32FFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{341F8591-9900-449B-83CD-4A07E6A32FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341F8591-9900-449B-83CD-4A07E6A32FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341F8591-9900-449B-83CD-4A07E6A32FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341F8591-9900-449B-83CD-4A07E6A32FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B70177B3-CB08-4E8D-A6B9-D75FB6655674}
+	EndGlobalSection
+EndGlobal

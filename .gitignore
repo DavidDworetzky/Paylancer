@@ -1,0 +1,10 @@
+.dll
+Paylancer/bin
+Paylancer/obj
+.git
+.vs
+bin
+obj
+packages
+*.suo
+*.user
