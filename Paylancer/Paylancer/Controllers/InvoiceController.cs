@@ -11,5 +11,14 @@ namespace Paylancer.Controllers
     [ApiController]
     public class InvoiceController : ControllerBase
     {
+        public InvoiceController()
+        {
+
+        }
+        [HttpPost]
+        public IActionResult Add()
+        {
+            return Ok();
+        }
     }
 }

@@ -14,6 +14,11 @@ namespace Paylancer.Models
         public Decimal Amount { get; set; }
 
         public int Type { get; set; }
+
+        /// <summary>
+        /// Project Associated with Work Line Item
+        /// </summary>
+        public Project Project { get; set; }
     }
 
     public enum WorkLineItemType

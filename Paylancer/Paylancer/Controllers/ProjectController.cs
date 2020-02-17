@@ -11,5 +11,26 @@ namespace Paylancer.Controllers
     [ApiController]
     public class ProjectController : ControllerBase
     {
+        public ProjectController()
+        {
+
+        }
+
+        [HttpPost]
+        public IActionResult Add()
+        {
+            return Ok();
+        }
+
+        [HttpGet]
+        public IActionResult Invoices()
+        {
+            return Ok();
+        }
+
+        public IActionResult WorkLineItems()
+        {
+            return Ok();
+        }
     }
 }

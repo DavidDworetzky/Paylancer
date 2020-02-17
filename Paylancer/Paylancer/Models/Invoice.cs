@@ -17,6 +17,14 @@ namespace Paylancer.Models
 
         public string Description { get; set; }
 
+        /// <summary>
+        /// Work Line Items Associated with this invoice
+        /// </summary>
         public IList<WorkLineItem> LineItems { get; set; }
+
+        /// <summary>
+        /// Project Associated with this Invoice
+        /// </summary>
+        public Models.Project Project { get; set; }
     }
 }
