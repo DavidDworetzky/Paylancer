@@ -58,6 +58,7 @@ namespace Paylancer.Models
         Daily = 0,
         Weekly = 2,
         Monthly = 3,
-        Manual = 4
+        BiWeekly = 4,
+        Manual = 5
     }
 }
